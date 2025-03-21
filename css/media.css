@@ -1,0 +1,228 @@
+@media screen and (min-width: 320px) and (max-width: 600px) {
+
+    .header-bar {
+        display: none;
+    }
+
+    .content h1 {
+        font-size: 30px !important;
+        text-align: center !important;
+        font-weight: bold !important;
+    }
+
+    .content h2 {
+        font-size: 14px;
+        text-align: center;
+        padding-top: 12px !important;
+    }
+
+    .content h3 {
+        font-size: 12px !important;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .content h4{
+        text-align: center;
+    }
+
+    .enquiry-button button {
+        left: 25% !important;
+
+    }
+
+    .medallion .row {
+        margin-right: 0px;
+    }
+
+    .medallion_session {
+        width: 100%;
+    }
+
+    .medallion_content p {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .medallion_content button {
+        margin-left: 15px;
+    }
+
+    .service_provide_content h4 {
+        font-size: 20px !important;
+    }
+
+    .service_provide_content p {
+        font-size: 13px;
+    }
+
+    .service_provide_img img {
+        width: 80%;
+    }
+
+    .service_provide_box {
+        margin-bottom: 10px;
+    }
+
+    .service_provide_box::before {
+        left: 50%;
+    }
+
+    .mohali_session_left span {
+        font-size: 57px;
+    }
+
+    .mohali_session_left h4 {
+        font-size: 18px;
+    }
+
+    .mohali_session_right {
+        padding: 10px !important;
+    }
+
+    .mohali_session {
+        background-image: linear-gradient(53deg, #000000 10.53%, #0000001f 100%);
+        top: 0px;
+        bottom: 0px;
+    }
+
+    .mohali_session>.container>.row{
+        padding-top: 50px;
+    }
+
+    .mohali_session_right .mohali_session_content {
+        flex-direction: column !important;
+    }
+
+    .mohali_session_right h3 {
+        font-size: 14.05px;
+    }
+
+    .mohali_session_right button {
+        padding: 10px 28px;
+        font-size: 14px;
+    }
+
+    .mohali_session_right_2 {
+        padding: 10px !important;
+        border: none !important;
+    }
+
+    .mohali_session_right_2_session img {
+        width: 15%;
+    }
+
+    .mohali_session_right_2_session {
+        display: flex;
+        flex-direction: row !important;
+    }
+
+    .mohali_session_right_2_heading {
+        padding-left: 20px;
+    }
+
+    .mohali_session_right_2_heading h6 {
+        font-size: 12px;
+    }
+
+    .mohali_session_right_2_heading h3 {
+        font-weight: 700;
+    }
+
+    .timeline-container{
+        display: none !important;
+    }
+
+    .footer-content img  {
+        width: 100%;
+    }
+
+    .footer-menu ul{
+        flex-wrap: wrap;
+        padding-left: 0px;
+    }
+
+    .footer-last-content{
+        margin-top: 10px;
+    }
+
+    .footer-last-content li:nth-child(4) {
+        font-size: 14px;
+    }
+
+    .footer-last-text ul{
+        padding-left: 0px;
+    }
+
+    .footer-last-text ul li{
+        font-size: 14px;
+        padding: 10px 9px;
+    }
+
+    .copywrite p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .property-heading>h2{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .property{
+        text-align: center !important;
+        margin-bottom: 20px;
+    }
+
+    .slider{
+        display: none;
+    }
+
+    .banner{
+        display: none;
+    }
+
+    .video video{
+        width: 100%;
+        object-fit: cover;
+    }
+    
+
+    .tab{
+        position:static !important;
+    }
+
+    .why-box{
+        border-right: none;
+    }
+    .current-offer-banner > .banner-dek{
+        display: none;
+    }
+
+    .price-section img{
+        padding: 15px;
+    }
+
+    .price{
+        padding: 15px;
+    }
+
+    .unlock{
+        margin: 20px;
+    }
+
+    .bank-logo{
+        width: 100%;
+    }
+
+    .item{
+        margin: auto;
+    }
+
+}
+
+@media screen and (min-width:661px) and (max-width:996px) {
+    .why-box{
+      margin-bottom: 50px;
+    }
+}
