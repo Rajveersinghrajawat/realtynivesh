@@ -1,3 +1,9 @@
+/* body {
+    font-family: 'Supera Gothic', sans-serif;
+} */
+
+
+
 @media screen and (min-width: 320px) and (max-width: 600px) {
 
     .header-bar {
@@ -22,7 +28,7 @@
         font-weight: bold;
     }
 
-    .content h4{
+    .content h4 {
         text-align: center;
     }
 
@@ -86,7 +92,7 @@
         bottom: 0px;
     }
 
-    .mohali_session>.container>.row{
+    .mohali_session>.container>.row {
         padding-top: 50px;
     }
 
@@ -129,20 +135,20 @@
         font-weight: 700;
     }
 
-    .timeline-container{
+    .timeline-container {
         display: none !important;
     }
 
-    .footer-content img  {
+    .footer-content img {
         width: 100%;
     }
 
-    .footer-menu ul{
+    .footer-menu ul {
         flex-wrap: wrap;
         padding-left: 0px;
     }
 
-    .footer-last-content{
+    .footer-last-content {
         margin-top: 10px;
     }
 
@@ -150,11 +156,11 @@
         font-size: 14px;
     }
 
-    .footer-last-text ul{
+    .footer-last-text ul {
         padding-left: 0px;
     }
 
-    .footer-last-text ul li{
+    .footer-last-text ul li {
         font-size: 14px;
         padding: 10px 9px;
     }
@@ -164,65 +170,284 @@
         text-align: center;
     }
 
-    .property-heading>h2{
+    .property-heading>h2 {
         font-size: 16px;
         text-align: center;
     }
 
-    .property{
+    .property {
         text-align: center !important;
         margin-bottom: 20px;
     }
 
-    .slider{
+    .slider {
         display: none;
     }
 
-    .banner{
+    .banner {
         display: none;
     }
 
-    .video video{
+    .video video {
         width: 100%;
         object-fit: cover;
     }
-    
 
-    .tab{
-        position:static !important;
+
+    .tab {
+        position: static !important;
     }
 
-    .why-box{
+    .why-box {
         border-right: none;
     }
-    .current-offer-banner > .banner-dek{
+
+    .current-offer-banner>.banner-dek {
         display: none;
     }
 
-    .price-section img{
+    .price-section img {
         padding: 15px;
     }
 
-    .price{
+    .price {
         padding: 15px;
     }
 
-    .unlock{
+    .unlock {
         margin: 20px;
     }
 
-    .bank-logo{
+    .bank-logo {
         width: 100%;
     }
 
-    .item{
+    .item {
         margin: auto;
     }
+
+    /* start me */
+    .contact-p {
+        width: 80%;
+        /* border: 2px solid red; */
+        font-family: 'Supera Gothic', sans-serif;
+        margin: 0 auto;
+        font-weight: 600;
+        font-size: 13px;
+        text-align: center;
+        color: #404040;
+    }
+
+    .contact-session h2 {
+        font-weight: 700;
+        padding: 10px 0px !important;
+        /* border: 1px solid red; */
+        margin: 0px;
+        color: #121212;
+
+    }
+
+    .contact-ul {
+        /* border: 1px solid red; */
+        padding: 0px;
+    }
+
+    .contact-ul li {
+        background-color: #0E0E0E;
+        padding: 10px;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin: 10px 0px;
+    }
+
+    .contact-ul i {
+        padding: 15px;
+        display: block;
+
+        background-image: url("../img/Untitled-1.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        color: white !important;
+    }
+
+    .contact-ul span {
+        color: white !important;
+        display: block;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-transform: capitalize;
+        font-family: 'Supera Gothic', sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+
+    }
+
+    /* mobile-Donwload */
+    #mobile-Donwload {
+        background-color: black;
+        height: 285px;
+        margin-bottom: 148px;
+        color: white;
+        position: relative;
+    }
+
+    #mobile-Donwload h2 {
+        font-size: 20px;
+        font-weight: 700;
+        padding: 20px 0px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #mobile-Donwload .Donwload-box {
+        width: 65px;
+        height: 65px;
+        border: 2px solid white;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 60px;
+
+
+    }
+
+    #mobile-Donwload .Donwload-box:nth-child(2) {
+        background-image: url("../img/Untitled-1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: none;
+    }
+
+    /* #mobile-Donwload .Donwload-box img{} */
+    #mobile-Donwload .Donwload-box div {
+
+        width: 79px;
+        /* border: 1px solid red; */
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 100%;
+        font-weight: 400;
+        padding: 10px 0px !important;
+        text-align: left;
+
+    }
+
+    #mobile-Donwload .animate {
+        display: table;
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 64%;
+        left: 8%;
+    }
+
+    /* footer-last */
+    #footer-last {
+        background-color: #F6F5F5;
+        padding: 10px 0px;
+    }
+
+    #footer-last p {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    #footer-last ul {
+        color: #171717;
+        font-size: 14px !important;
+        font-weight: 600;
+
+        padding: 0px 15px;
+        justify-content: space-around;
+
+
+    }
+
+    #footer-last ul li {
+        padding: 10px 0px;
+    }
+
+    /* footer */
+    #contact-mobile {
+        background-color: #0E0E0E;
+        color: white;
+    }
+
+    #contact-mobile ul {
+        padding: 0;
+    }
+
+    #contact-mobile ul li {
+        width: 90%;
+        border-bottom: 1px solid white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    #contact-mobile ul li span {
+        margin-left: 10px;
+        text-decoration: uppercase !important;
+    }
+
+    #contact-mobile .footerNumber {
+        width: 95%;
+        margin: 15px auto;
+        font-size: 14px;
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 10px;
+
+    }
+
+    #contact-mobile .footerNumber i {
+        margin: 0px 5px;
+    }
+
+    #contact-mobile .footerNumber div:nth-child(2) {
+        width: 1px;
+        background-color: white;
+    }
+
+    #contact-mobile .footerIcons {
+        width: 80%;
+        display: flex;
+        justify-content: space-evenly;
+        margin: auto;
+        padding-top: 20px;
+    }
+
+    #contact-mobile .footerIcons div {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+
+    }
+
+    #contact-mobile .footerIcons div img {
+        width: 100%;
+
+    }
+
+    #contact-mobile .footerPtag p {
+        
+      width: 80%;
+      margin: auto;
+        font-size: 14px;
+        line-height: 15.46px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: capitalize;
+        padding-top: 10px;
+    }
+
 
 }
 
 @media screen and (min-width:661px) and (max-width:996px) {
-    .why-box{
-      margin-bottom: 50px;
+    .why-box {
+        margin-bottom: 50px;
+        color: #2C2C2C;
     }
 }

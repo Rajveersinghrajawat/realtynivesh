@@ -1,3 +1,26 @@
+@font-face {
+    font-family: 'Supera Gothic';
+    src: url('../utility/Supera_Gothic-www.Dfonts.org/SuperaGothic-Regular.woff2') format('woff2'),
+        url('../utility/Supera_Gothic-www.Dfonts.org/fonts/SuperaGothic-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Supera Gothic';
+    src: url('../utility/Supera_Gothic-www.Dfonts.org/SuperaGothic-Bold.woff2') format('woff2'),
+        url('../utility/Supera_Gothic-www.Dfonts.org/SuperaGothic-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Supera Gothic';
+    src: url('../utility/Supera_Gothic-www.Dfonts.org/SuperaGothic-Italic.woff2') format('woff2'),
+        url('../utility/Supera_Gothic-www.Dfonts.org/SuperaGothic-Italic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+}
 ::-webkit-scrollbar {
     width: 2px;
 }

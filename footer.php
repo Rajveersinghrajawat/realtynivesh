@@ -1,51 +1,75 @@
 
 
-<section class="google-map my-5">
+<!-- <center>footer start</center> -->
+<!-- <section class="google-map my-5">
     <div class="container-fluid">
         <div class="row">
         <iframe class="p-0 img-fluid" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6867.112028964283!2d76.809266!3d30.618284!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fe9ec15cbfd03%3A0x4cb1dcaa577519c8!2sRealty%20Nivesh!5e0!3m2!1sen!2sin!4v1740392163687!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
-</section>
+</section> -->
 
-<section>
-    <div class="container-fluid contact-session mb-5">
+<section class="py-3">
+    <div class="container-fluid contact-session">
         <h2 class="text-center">CONTACT US</h2>
         
+        
    
-        <div class="row justify-content-center text-white bg-dark">
+        <div class="d-none d-lg-block ">
+        <div class="row justify-content-center text-white bg-dark  " >
 
-            <div class="col-lg-3 text-center py-3">
-                <div class="contact-icon">
-                <i class="fa-solid fa-phone-volume"></i>
+                <div class="col-lg-3 text-center py-3">
+                    <div class="contact-icon">
+                    <i class="fa-solid fa-phone-volume"></i>
+                    </div>
+
+                    <p>+91 89680 66698</p>
+                    <p>+91 99880 10405</p>
                 </div>
 
-                <p>+91 89680 66698</p>
-                <p>+91 99880 10405</p>
-            </div>
+                <div class="col-lg-3 text-center py-3">
+                    <div class="contact-icon">
+                    <i class="fa-solid fa-envelope"></i>
+                    </div>
 
-            <div class="col-lg-3 text-center py-3">
-                <div class="contact-icon">
-                <i class="fa-solid fa-envelope"></i>
+                    <p>info@realtynivesh.com</p>
                 </div>
+                <div class="col-lg-3 text-center py-3">
+                    <div class="contact-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    </div>
 
-                <p>info@realtynivesh.com</p>
-            </div>
-            <div class="col-lg-3 text-center py-3">
-                <div class="contact-icon">
-                <i class="fa-solid fa-location-dot"></i>
+                    <p>Showroom No. 12 level 2, UPTOWN insignia PR-7 Airport Road, Zirakpur, Punjab</p>
                 </div>
-
-                <p>Showroom No. 12 level 2, UPTOWN insignia PR-7 Airport Road, Zirakpur, Punjab</p>
-            </div>
+                </div>
         </div>
+
+        <!-- for mobile -->
+        <p class="d-lg-none contact-p  ws" >For sales enquiries contact Aurum partner/ Realty Nivesh</p>
+         <ul class="d-lg-none contact-ul">
+           <li> <i class="fa-solid fa-phone-volume"></i> <span>+91 89680 66698 </span>  </li>
+           <li> <i class="fa-solid fa-phone-volume"></i> <span>+91 99880 10405  </span>  </li>
+           <li> <i class="fa-solid fa-phone-volume"></i> <span>sales@realtynivesh.com  </span>  </li>
+           <li> 
+            <i class="fa-solid fa-phone-volume"></i>
+             <span>
+             Showroom No. 12 level 2, UPTOWN 
+                insignia PR-7 Airport Road, Zirakpur,
+                Punjab
+             </span>
+              </li>
+          
+           </ul>
+
+
+
    
     </div>
 </section>
 
-
-<section>
-    <div class="container-fluid download">
+<!-- start Donwload -->
+<section id="Donwload"  class="d-none d-lg-block">
+    <div class="container-fluid download ">
         <div class="row align-items-center">
             <div class="col-lg-4 col-md-12 col-12 py-5 download-content">
                 <h2 class="text-white">DOWNLOADS</h2>
@@ -62,7 +86,32 @@
     </div>
 </section>
 
-<section id="contact">
+<!-- for mobile -->
+<section id="mobile-Donwload" class="d-lg-none" >
+            <h2>Donwload</h2>
+            <div class="d-flex  justify-content-around">
+                    <div class="Donwload-box  "> <img src="./img/w123.png " alt=""/> <div>Brochure </div> </div>
+                    <div class="Donwload-box" > <img src="./img/Group 4809.png " alt=""/> <div>Site Plans</div> </div>
+                    <div class="Donwload-box" > <img src="./img/re43.png " alt=""/> <div>Price List</div> </div>
+            </div>
+            <div class="animate " >
+                <img src="./img/Group 5958.png" alt="">
+            </div>
+
+            
+</section>
+<!-- close Donwload -->
+
+<section class="google-map ">
+    <div class="container-fluid">
+        <div class="row">
+        <iframe class="p-0 img-fluid" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6867.112028964283!2d76.809266!3d30.618284!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fe9ec15cbfd03%3A0x4cb1dcaa577519c8!2sRealty%20Nivesh!5e0!3m2!1sen!2sin!4v1740392163687!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</section>
+
+
+<section id="contact" class="d-none d-lg-block">
     <div class="container-fluid footer">
 
 
@@ -133,8 +182,82 @@
         <div class="footer-overlay"></div>
 </section>
 
+<!-- for mobile -->
 
-<section>
+    <footer id="contact-mobile" class="d-block  d-lg-none py-3">
+
+        <div class="text-center ">
+                <img src="./img/Group 5795.png" alt="">
+        </div>
+
+        <ul>
+            <li>
+                <div><img src="./img/new_icon.png" alt=""> <span>About Us</span> </div>
+                <div> <img src="./img/Group 1000005435.png" alt=""> </div>
+            </li>
+
+            <li>
+                <div><img src="./img/Group 1000005429-1.png" alt=""> <span>Products </span> </div>
+                <div> <img src="./img/Group 1000005435.png" alt=""> </div>
+            </li>
+
+            <li>
+                <div><img src="./img/carbon_floorplan.png" alt=""> <span>plans</span> </div>
+                <div> <img src="./img/Group 1000005435.png" alt=""> </div>
+            </li>
+
+            <li>
+                <div><img src="./img/Group 1000005472.png" alt=""> <span>Location Map</span> </div>
+                <div> <img src="./img/Group 1000005435.png" alt=""> </div>
+            </li>
+
+            <li>
+                <div><img src="./img/Group 1000005473.png" alt=""> <span>Price</span> </div>
+                <div> <img src="./img/Group 1000005435.png" alt=""> </div>
+            </li>
+
+            <li>
+                <div><img src="./img/Group 1000005474.png" alt=""> <span>Amenities</span> </div>
+                <div> <img src="./img/Group 1000005435.png" alt=""> </div>
+            </li>
+
+            <li>
+                <div><img src="./img/myIcon.png" alt=""> <span>Gallery</span> </div>
+                <div> <img src="./img/Group 1000005435.png" alt=""> </div>
+            </li>
+
+            <li>
+                <div><i class="fa-regular fa-address-book"></i> <span>Contact Us</span> </div>
+                <div> <img src="./img/Group 1000005435.png" alt=""> </div>
+            </li>
+        </ul>
+        <div class="footerNumber" >
+            <div class=""><i class="fa-solid fa-phone-volume"></i> 91 89680 66698 </div>
+            <div></div>
+            <div><i class="fa-solid fa-phone-volume"></i> +91 99880 10405 </div>
+        </div>
+
+        <div class="footerIcons">
+            <div> <img src="./img/Vector.png" alt=""> </div>
+            <div> <img src="./img/Vector (4).png" alt=""> </div>
+            <div> <img src="./img/Vector (3).png" alt=""> </div>
+            <div> <img src="./img/Vector (2).png" alt=""> </div>
+            <div> <img src="./img/Vector (1).png" alt=""> </div>
+           
+        </div>
+
+        <div class="text-center pt-3 "> <img src="./img/Group 5784.png" alt=""  class="w-75" > </div>
+        <div class="footerPtag ">
+            <p>
+            Showroom No. 12 level 2, UPTOWN insignia 
+            PR-7 Airport Road, Zirakpur, Punjab
+            </p>
+        </div>
+    </footer>
+
+
+
+<section  id="footer-last" >
     <div class="container-fluid footer-last">
         <div class="row align-items-center">
             <div class="col-lg-6 col-12 footer-last-text">
