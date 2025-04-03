@@ -5,6 +5,7 @@
 
 
 @media screen and (min-width: 320px) and (max-width: 600px) {
+   
 
     .header-bar {
         display: none;
@@ -229,7 +230,7 @@
     /* start me */
     .contact-p {
         width: 80%;
-        /* border: 2px solid red; */
+       
         font-family: 'Supera Gothic', sans-serif;
         margin: 0 auto;
         font-weight: 600;
@@ -241,14 +242,14 @@
     .contact-session h2 {
         font-weight: 700;
         padding: 10px 0px !important;
-        /* border: 1px solid red; */
+        
         margin: 0px;
         color: #121212;
 
     }
 
     .contact-ul {
-        /* border: 1px solid red; */
+        
         padding: 0px;
     }
 
@@ -323,7 +324,7 @@
     #mobile-Donwload .Donwload-box div {
 
         width: 79px;
-        /* border: 1px solid red; */
+        
         font-size: 14px;
         font-weight: 600;
         line-height: 100%;
@@ -335,7 +336,7 @@
 
     #mobile-Donwload .animate {
         display: table;
-        /* border: 1px solid red; */
+        
         position: absolute;
         top: 64%;
         left: 8%;
@@ -431,9 +432,9 @@
     }
 
     #contact-mobile .footerPtag p {
-        
-      width: 80%;
-      margin: auto;
+
+        width: 80%;
+        margin: auto;
         font-size: 14px;
         line-height: 15.46px;
         letter-spacing: 0%;
@@ -441,6 +442,386 @@
         text-transform: capitalize;
         padding-top: 10px;
     }
+
+    /* for banner */
+    #banner_session .content {
+        
+        text-align: center;
+        top: 30%;
+        left: 0%;
+    }
+
+    #banner_session .content h1 {
+        font-size: 22px !important;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+
+    #banner_session .content h2 {
+        font-size: 14px !important;
+        font-weight: 600;
+        text-align: center;
+        padding: 0px 30px;
+        padding-top: 12px !important;
+    }
+
+    #banner_session .content h3 {
+        font-size: 12px !important;
+        text-align: center;
+        /* font-weight: bold; */
+    }
+
+    #banner_session .enquiry-button {
+        text-align: center;
+    }
+
+    #banner_session .enquiry-button button {
+        background-image: url("../img/Rectangle 2788.png");
+
+        background-size: 130%;
+        left: -2% !important;
+    }
+
+    #banner_session h4 {
+        padding-top: 10px !important;
+        font-size: 12px !important;
+    }
+
+    #banner_session .mobileDiv {
+        width: 100vw;
+        
+        background-image: url("../img/Group 5307.png");
+        height: 100px;
+        background-repeat: no-repeat;
+        background-size: 91%;
+        background-position: 52% 95%;
+        position: fixed;
+        bottom: 10px;
+    }
+
+    #banner_session .mobileDiv img:nth-child(1) {
+        position: absolute;
+        top: 8%;
+        left: 45%;
+    }
+
+    #banner_session .mobileDiv .fa-phone {
+        position: absolute !important;
+        top: 53% !important;
+        left: 13% !important;
+        font-size: 16px;
+        color: black !important;
+    }
+
+    #banner_session .mobileDiv .fa-whatsapp {
+        position: absolute !important;
+        top: 50% !important;
+        left: 78% !important;
+        font-size: 22px;
+        font-weight: bold;
+        color: black;
+    }
+
+    /* about-us */
+    #about-us .medallion_banner {
+        padding-top: 20px;
+    }
+
+    #about-us .medallion_banner img:nth-child(1) {
+        display: block !important;
+        margin: auto;
+        width: 206px;
+    }
+
+    #about-us .medallion_banner img:nth-child(2) {
+        display: block !important;
+        margin: 15px 18px;
+        width: 274px;
+    }
+
+    #about-us .medallion_content p {
+        font-size: 14px;
+        padding: 0px 18px;
+    }
+
+    #about-us .medallion_session {
+        background-image: none;
+
+    }
+
+    #about-us .downPart {
+        border-top: 1px solid #FFC267;
+        color: #FFC267;
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center;
+        padding: 15px 18px;
+    }
+
+    #about-us .downPart div:nth-child(1) {
+        font-size: 15px;
+    }
+
+    #about-us .downPart i {
+        border: 1px solid #FFC267;
+        border-radius: 50%;
+        padding: 10px;
+    }
+
+    /*  */
+    .service_provide {
+        background: none !important;
+    }
+
+    .service_provide_content p {
+        font-size: 14px !important;
+        font-weight: 700;
+        /* margin-bottom: 0.25rem; */
+    }
+
+    /* mobile-KEY-HIGHLIGHTS */
+
+    #mobile-KEY-HIGHLIGHTS {
+        width: 100%;
+        height: 190px;
+        background-color: black;
+        margin-top: 20px;
+        text-align: center;
+        padding: 15px 0px;
+        margin-bottom: 356px;
+        position: relative !important;
+    }
+
+    #mobile-KEY-HIGHLIGHTS h2 {
+        color: #FFC267;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    #mobile-KEY-HIGHLIGHTS p {
+        color: white;
+        padding: 0px 18px;
+        font-size: 14px;
+    }
+
+    #mobile-KEY-HIGHLIGHTS .silderBox {
+        position: relative;
+    }
+
+    #mobile-KEY-HIGHLIGHTS .silderBox img {
+        width: 358px;
+        height: 427.1513671875px;
+
+    }
+
+    #mobile-KEY-HIGHLIGHTS .whiteBox {
+        width: 85%;
+        background-color: white;
+
+        position: absolute;
+        top: 68%;
+        left: 7.5%;
+        text-align: left;
+        padding: 10px;
+    }
+
+    #mobile-KEY-HIGHLIGHTS .whiteBox h3 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    #mobile-KEY-HIGHLIGHTS .whiteBox p {
+        font-size: 12px;
+        color: black;
+        padding: 0px;
+        font-weight: 400;
+    }
+
+    #mobile-KEY-HIGHLIGHTS .arrows {
+        
+        font-size: 22px;
+        text-align: right;
+        padding: 5px 21px;
+    }
+
+    #mobile-KEY-HIGHLIGHTS .arrows svg {
+        border: 2px solid #282525;
+        width: 30px;
+        height: 30px;
+        border-radius: 5px;
+        padding: 5px;
+
+    }
+
+    /* Our-ProductS */
+    #Our-ProductS {
+        padding-top: 42px;
+        margin-bottom: 104px;
+       
+    }
+
+    #Our-ProductS div:nth-child(1) h2 {
+        text-transform: uppercase;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    #Our-ProductS div:nth-child(1) p {
+        padding: 0px 16px;
+        font-size: 12px;
+    }
+
+    #Our-ProductS .allBtn {
+        text-align: center;
+
+    }
+
+    #Our-ProductS .allBtn button {
+        text-align: center;
+        border: none;
+        outline: none;
+        padding: 10px 28px;
+        border-radius: 8px;
+        background-color: black;
+        color: white;
+        font-weight: bold;
+        margin: 0px 3px;
+    }
+
+    #Our-ProductS .allBtn button:nth-child(2) {
+        color: black;
+        background-image: url("https://medallionaurum.realtynivesh.com/images/themebgimg.webp");
+        background-size: cover;
+    }
+
+    #Our-ProductS .whiteBox {
+        width: 94%;
+        padding: 10px 0px;
+       
+        position: absolute;
+        top: 71%;
+        left: 4%;
+        background-color: white;
+        box-shadow: 0px 7px 10px 3px #ccc;
+
+
+    }
+
+    #Our-ProductS .whiteBox h2 {
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 700;
+        text-align: left !important;
+        padding: 0px 10px;
+
+    }
+
+    #Our-ProductS .whiteBox p {
+
+        text-align: left !important;
+        padding: 0px 10px !important;
+        font-weight: 16px;
+        font-weight: bold;
+    }
+
+    #Our-ProductS .whiteBox marquee {
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+
+    #Our-ProductS .whiteBox marquee span {
+        /* color: #FFC267; */
+        background-image: url("https://medallionaurum.realtynivesh.com/images/themebgimg.webp");
+        background-size: cover;
+        background-clip: text;
+        color: transparent;
+    }
+    #Our-ProductS .whiteBox .box div:nth-child(2){
+        font-size: 11px ;
+        margin-top: 4px;
+    }
+    #Our-ProductS .whiteBox .box div:nth-child(3){
+        
+        font-size: 12px ;
+        font-weight: bold;
+    }
+    #Our-ProductS .whiteBox .box small{
+        font-size: 5px;
+        padding: 0px;
+    }
+
+    #Our-ProductS .bottom_div{
+       
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 12px;
+    }
+    #Our-ProductS .bottom_div div:nth-child(1){
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        border: 1px solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url("../img/themebgimg.webp");
+        background-size: cover;
+        color: white;
+    }
+    #Our-ProductS .bottom_div div:nth-child(2){
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        border: 1px solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url("../img/themebgimg.webp");
+        background-size: cover;
+        color: white;
+        font-size: 20px;
+    }
+    #Our-ProductS .bottom_div div:nth-child(3){
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        border: 1px solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url("../img/themebgimg.webp");
+        background-size: cover;
+        color: white;
+        font-size: 18px;
+    }
+
+    #Our-ProductS .bottom_div div:nth-child(4) button{
+        
+       
+        background-image: url("../img/themebgimg.webp");
+        background-size: cover;
+        background-position: center;
+        color: white;
+        font-size: 15px;
+        border: none;
+        outline: none;
+        padding: 8px 8px;
+        border-radius: 5px;
+    }
+
+    /* PROJECT_STATUS */
+    #PROJECT_STATUS{
+        padding-top: 60px;
+        border: 2px solid red;
+    }
+    #PROJECT_STATUS .project{
+       margin-top: 50px !important;
+        width: 95%;
+        margin: auto;
+        box-shadow: 0px 0px 10px 5px #ccc;
+    }
+
 
 
 }

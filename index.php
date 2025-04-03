@@ -2,7 +2,7 @@
 include_once('header.php');
 ?>
 
-<section class="banner_session mb-4">
+<section class="banner_session mb-0 mb-lg-2" id="banner_session" >
   <video class="video-background" autoplay muted loop>
     <source src="https://medallionaurum.realtynivesh.com/videos/mainVideo-background.mp4" type="video/mp4">
     Your browser does not support the video tag.
@@ -13,54 +13,72 @@ include_once('header.php');
     <h2 class="fs-4">Where Elegance Meets Modern Comfort in the Heart of Mohali.</h2>
     <h3 class="fs-4 py-2">The medallion aurum IT City Mohali</h3>
 
+
     <div class="enquiry-button">
-      <button type="button" data-bs-target="#exampleModal" data-bs-toggle="modal">Enquiry Now</button>
+      <button type="button" data-bs-target="#exampleModal" data-bs-toggle="modal">Buy Now</button>
     </div>
 
     <h4 class="pt-4">Rera No - PBRERA-SAS81-PRO685</h4>
+    <div class="mobileDiv d-block d-lg-none">
+      <img src="./img/zz.png" alt="">
+      <i class="fa-solid fa-phone"></i>
+      <i class="fa-brands fa-whatsapp"></i>
+    </div>
 
   </div>
 </section>
 
-<section class="medallion_session mb-3" id="about-us">
-  <div class="medallion mx-auto">
+
+
+
+
+<section id="about-us"  >
+ <div class="medallion_session mb-3 ">
+ <div class="medallion mx-auto">
     <div class="row justify-content-between">
 
 
-      <div class="col-lg-5 col-12">
-        <div class="medallion_banner p-5">
-          <img src="img/aboutusMobileTriIcon.webp" class="img-fluid">
+      <div class="col-lg-5 col-12 p-2 ">
+        <div class="medallion_banner">
+          <!-- <img src="img/aboutusMobileTriIcon.webp" class="img-fluid"> -->
+          <img src="img/Group 5743.png" class="img-fluid d-block ">
+          <img src="img/Group 1000003645.png" class="img-fluid d-block ">
         </div>
       </div>
+ 
 
-
-      <div class="col-lg-7 col-12  text-lg-star medallion_content">
-        <p class="pt-4">
-          Welcome To Medallion Aurum, A Premium Residential Destination Designed To Redefine Luxury Living In Mohali. Strategically Located, Medallion Aurum Mohali Offers An Unparalleled Blend Of Elegant Architecture, Modern Amenities, And A Lifestyle That Resonates With Opulence And Comfort. Our Vision Is To Create A World-Class Living Experience For Residents Who Value Sophistication And Exclusivity.
+      <div class="col-lg-7 col-12  text-lg-star medallion_content py-0 ">
+        <p class="">
+        Sushma Elementa Kasauli is offering beautifully designed residential property in the hills of Kasauli. The property is been located in Kasauli, Solan. Sushma Elementa Kasauli is fully RERA Registered Project By Sushma Group The possession of this property will start from Dec, 2024. The architects those who have designed this property are well experienced in their field.
         </p>
 
-        <p class="pt-2">
-          Welcome To Medallion Aurum, A Premium Residential Destination Designed To Redefine Luxury Living In Mohali. Strategically Located, Medallion Aurum Mohali Offers An Unparalleled Blend Of Elegant Architecture, Modern Amenities, And A Lifestyle That Resonates With Opulence And Comfort. Our Vision Is To Create A World-Class Living Experience For Residents Who Value Sophistication And Exclusivity.
+        <p class="">
+        elementa kasauli is offering top notch facilities that will add values to your life. There are 8 Towers, 7 Floors and 382 Units in totality. 
         </p>
 
-        <div id="moreContent" style="display: none;">
-          <p class="pt-2">
-            At Medallion Aurum, We Prioritize Your Comfort And Well-Being By Providing A Host Of State-Of-The-Art Amenities, Including Landscaped Green Spaces, Fitness Centers, Dedicated Recreational Zones, And 24/7 Security. Our Commitment To Excellence Makes Us Stand Apart As Mohali's Premier Choice For Luxury Apartment Living.
-          </p>
-        </div>
+       
 
-        <button class="mb-4" id="toggleButton" onclick="toggleContent()">READ MORE</button>
+        <button class="mb-4 d-none d-lg-block" id="toggleButton" onclick="toggleContent()">READ MORE</button>
+
+        <div class=" d-block d-lg-none downPart ">
+            <div> Read More </div>
+            <div> <i class="fa-solid fa-angle-down"></i> </div>
+
+         </div>
       </div>
 
 
     </div>
+
+    
   </div>
+ </div>
 </section>
 
 
 <section class="service_provide">
 
-  <div class="container py-5">
+  <div class="container py-2 py-lg-5 ">
     <div class="row justify-content-between">
 
       <div class="col-lg-3 col-6 service_provide_box border-end">
@@ -182,7 +200,7 @@ include_once('header.php');
   </div>
 </section>
 
-<section>
+<section class=" d-none d-lg-block ">
   <div class="container-fluid slider-container mt-4 pb-5">
 
     <div class="container  pt-5">
@@ -262,7 +280,127 @@ include_once('header.php');
   </div>
 </section>
 
-<section>
+<section class=" d-block d-lg-none " id="mobile-KEY-HIGHLIGHTS" >
+      <h2>key Highlights </h2>
+      <p>
+        Within the premises of the Sushma Township 
+        are reputed Schools
+      </p>
+
+      <div class="">
+
+      <div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner ">
+    <div class="carousel-item active">
+     <div class="silderBox "  >
+            <img src="./img/image.png" alt="">
+            <div class="whiteBox"> 
+              <h3>CLOSE TO EDUCATIONAL INSTITUTIONS</h3>
+              <p>
+              Within the premises of the Sushma Township
+              are reputed Schools
+              </p>
+            </div>
+        </div>
+    </div>
+    <div class="carousel-item">
+     <div class="silderBox "  >
+            <img src="./img/image.png" alt="">
+            <div class="whiteBox"> 
+              <h3>CLOSE TO EDUCATIONAL INSTITUTIONS</h3>
+              <p>
+              Within the premises of the Sushma Township
+              are reputed Schools
+              </p>
+            </div>
+        </div>
+    </div>
+    <div class="carousel-item">
+     <div class="silderBox "  >
+            <img src="./img/image.png" alt="">
+            <div class="whiteBox"> 
+              <h3>CLOSE TO EDUCATIONAL INSTITUTIONS</h3>
+              <p>
+              Within the premises of the Sushma Township
+              are reputed Schools
+              </p>
+            </div>
+        </div>
+    </div>
+  </div>
+  
+</div>
+        <div class="arrows">
+          
+            <svg id="prev" width="10" height="20" class="group-hover:fill-[#fff] fill-[#858080]" viewBox="0 0 18 31" xmlns="http://www.w3.org/2000/svg"><path d="M17.0719 2.86381L14.58 0.374226L1.00704 13.9425C0.788251 14.1599 0.614618 14.4184 0.496132 14.7032C0.377647 14.988 0.316649 15.2934 0.316649 15.6018C0.316649 15.9102 0.377647 16.2156 0.496132 16.5004C0.614618 16.7852 0.788251 17.0437 1.00704 17.2611L14.58 30.8364L17.0696 28.3468L4.3304 15.6053L17.0719 2.86381Z"></path></svg>
+
+            <svg id="next" width="10" height="20" class="group-hover:fill-[#fff] fill-[#858080]" viewBox="0 0 17 31" xmlns="http://www.w3.org/2000/svg"><path d="M0.119248 2.86381L2.61118 0.374226L16.1841 13.9425C16.4029 14.1599 16.5765 14.4184 16.695 14.7032C16.8135 14.988 16.8745 15.2934 16.8745 15.6018C16.8745 15.9102 16.8135 16.2156 16.695 16.5004C16.5765 16.7852 16.4029 17.0437 16.1841 17.2611L2.61118 30.8364L0.121594 28.3468L12.8608 15.6053L0.119248 2.86381Z"></path></svg>
+        </div>
+      </div>
+</section>
+
+<!-- mobile Our Product -->
+ <section id="Our-ProductS" class="d-block d-lg-none " >
+    <div>
+      <h2>Our ProductS </h2>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+      <div class="allBtn">
+        <button>2 BHK</button>
+        <button>3 BHK</button>
+        <button>3+1 BHK</button>
+      </div>
+
+      <div class="mt-4 border p-0 position-relative ">
+          <img src="./img/bed_room1.png" alt="" class="w-100" >
+          <div class="whiteBox" >
+            <h2>mid Rise luxury 3BHK Apartments</h2>
+            <p>630 SQFT. Ground + 7 Storey</p>
+            <marquee> <span>ask us for best available offers </span>  ask us for best availa </marquee>
+
+            <div class="row row-cols-3 text-white bg-dark  m-0  py-3" >
+              <div class="text-center border-end border-white box p-0 ">
+                <img src="./img/Group 4609.svg" alt="">
+                <div class="" >Type</div>
+                <div>SEMI FURNISHED</div>
+              </div>
+              
+              <div class="text-center  border-end border-white box p-0 ">
+                <img src="./img/Group 4606.svg" alt="">
+                <div>  </div>
+                <div class="mt-2" >SEMI FURNISHED
+                  <br class="m-0 p-0" />
+                  <small  >T&C Apply*</small>
+                </div>
+                
+              </div>
+
+              <div class="text-center  box p-0 ">
+                <img src="./img/Group 4488.svg" alt="">
+                <div>Type</div>
+                <div>SEMI FURNISHED</div>
+              </div>
+              
+
+            </div>
+
+            <div class="  bottom_div">
+              <div > <i class="fa-solid fa-phone"></i></div>
+              <div > <i class="fa-brands fa-whatsapp"></i> </div>
+              <div > <i class="fa-solid fa-arrow-down"></i></div>
+              <div> <button  >Explore Now  &#x2192;</button> </div>
+            </div>
+
+            
+
+          </div>
+      </div>
+    </div>
+ </section>
+
+ <!-- PROJECT_STATUS -->
+
+<section class="d-none d-lg-block" >
+  
   <div class="container project text-center pt-5">
     <h2>PROJECT STATUS</h2>
     <h3>The Medallion Aurum Mohali</h3>
@@ -371,6 +509,18 @@ include_once('header.php');
       <p>Completion 4th Floor</p>
     </div>
   </div>
+
+
+</section>
+
+<!-- mobile PROJECT_STATUS -->
+ <section id="PROJECT_STATUS" class="d-block d-lg-none"  >
+  <div class="container project text-center pt-5">
+    <h2>PROJECT STATUS</h2>
+    <h3>The Medallion Aurum Mohali</h3>
+  </div>
+
+ 
 
 
 </section>

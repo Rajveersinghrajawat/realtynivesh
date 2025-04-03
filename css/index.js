@@ -61,7 +61,7 @@ const allFaq = document.querySelectorAll(".mobileMenu > ul > li > i");
 
 allFaq.forEach((icon, i) => {
     icon.addEventListener("click", (event) => {
-        event.stopPropagation(); 
+        event.stopPropagation();
 
         allFaq.forEach((otherIcon, index) => {
             if (i !== index) {
@@ -81,4 +81,16 @@ allFaq.forEach((icon, i) => {
             icon.classList.toggle("fa-angle-up");
         }
     });
+});
+
+
+// key heightlight
+document.getElementById('prev').addEventListener('click', function() {
+    var carousel = new bootstrap.Carousel(document.getElementById('carouselExample'));
+    carousel.prev();
+});
+
+document.getElementById('next').addEventListener('click', function() {
+    var carousel = new bootstrap.Carousel(document.getElementById('carouselExample'));
+    carousel.next();
 });
