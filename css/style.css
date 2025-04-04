@@ -47,6 +47,7 @@
     text-decoration: none !important;
 }
 
+
 section {
     scroll-margin-top: 68px;
 }
@@ -413,6 +414,11 @@ a {
     width: 100px;
 }
 
+/*  */
+#testimonials .imgs{
+    width: 100px;
+    height: 80px;
+}
 .testimonials {
     width: 100%;
     background: url('../img/ezgif.com-optimize.gif') no-repeat center;
