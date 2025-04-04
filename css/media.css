@@ -5,7 +5,7 @@
 
 
 @media screen and (min-width: 320px) and (max-width: 600px) {
-   
+
 
     .header-bar {
         display: none;
@@ -230,7 +230,7 @@
     /* start me */
     .contact-p {
         width: 80%;
-       
+
         font-family: 'Supera Gothic', sans-serif;
         margin: 0 auto;
         font-weight: 600;
@@ -242,14 +242,14 @@
     .contact-session h2 {
         font-weight: 700;
         padding: 10px 0px !important;
-        
+
         margin: 0px;
         color: #121212;
 
     }
 
     .contact-ul {
-        
+
         padding: 0px;
     }
 
@@ -324,7 +324,7 @@
     #mobile-Donwload .Donwload-box div {
 
         width: 79px;
-        
+
         font-size: 14px;
         font-weight: 600;
         line-height: 100%;
@@ -336,7 +336,7 @@
 
     #mobile-Donwload .animate {
         display: table;
-        
+
         position: absolute;
         top: 64%;
         left: 8%;
@@ -445,7 +445,7 @@
 
     /* for banner */
     #banner_session .content {
-        
+
         text-align: center;
         top: 30%;
         left: 0%;
@@ -489,9 +489,9 @@
 
     #banner_session .mobileDiv {
         width: 100vw;
-        
+
         background-image: url("../img/Group 5307.png");
-        height: 100px;
+        height: 133px;
         background-repeat: no-repeat;
         background-size: 91%;
         background-position: 52% 95%;
@@ -501,8 +501,8 @@
 
     #banner_session .mobileDiv img:nth-child(1) {
         position: absolute;
-        top: 8%;
-        left: 45%;
+        top: 13%;
+        left: 46.5%;
     }
 
     #banner_session .mobileDiv .fa-phone {
@@ -583,7 +583,7 @@
 
     #mobile-KEY-HIGHLIGHTS {
         width: 100%;
-        height: 190px;
+        height: 245px;
         background-color: black;
         margin-top: 20px;
         text-align: center;
@@ -609,8 +609,8 @@
     }
 
     #mobile-KEY-HIGHLIGHTS .silderBox img {
-        width: 358px;
-        height: 427.1513671875px;
+        width: 432px;
+        height: 500px.1513671875px;
 
     }
 
@@ -619,7 +619,7 @@
         background-color: white;
 
         position: absolute;
-        top: 68%;
+        top: 75%;
         left: 7.5%;
         text-align: left;
         padding: 10px;
@@ -638,7 +638,7 @@
     }
 
     #mobile-KEY-HIGHLIGHTS .arrows {
-        
+
         font-size: 22px;
         text-align: right;
         padding: 5px 21px;
@@ -655,9 +655,9 @@
 
     /* Our-ProductS */
     #Our-ProductS {
-        padding-top: 42px;
+        padding-top: 142px;
         margin-bottom: 104px;
-       
+
     }
 
     #Our-ProductS div:nth-child(1) h2 {
@@ -697,12 +697,12 @@
     #Our-ProductS .whiteBox {
         width: 94%;
         padding: 10px 0px;
-       
+
         position: absolute;
         top: 71%;
         left: 4%;
         background-color: white;
-        box-shadow: 0px 7px 10px 3px #ccc;
+        box-shadow: 0px 4px 4px 0px #ccc;
 
 
     }
@@ -736,28 +736,32 @@
         background-clip: text;
         color: transparent;
     }
-    #Our-ProductS .whiteBox .box div:nth-child(2){
-        font-size: 11px ;
+
+    #Our-ProductS .whiteBox .box div:nth-child(2) {
+        font-size: 11px;
         margin-top: 4px;
     }
-    #Our-ProductS .whiteBox .box div:nth-child(3){
-        
-        font-size: 12px ;
+
+    #Our-ProductS .whiteBox .box div:nth-child(3) {
+
+        font-size: 12px;
         font-weight: bold;
     }
-    #Our-ProductS .whiteBox .box small{
+
+    #Our-ProductS .whiteBox .box small {
         font-size: 5px;
         padding: 0px;
     }
 
-    #Our-ProductS .bottom_div{
-       
+    #Our-ProductS .bottom_div {
+
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         padding-top: 12px;
     }
-    #Our-ProductS .bottom_div div:nth-child(1){
+
+    #Our-ProductS .bottom_div div:nth-child(1) {
         width: 45px;
         height: 45px;
         border-radius: 50%;
@@ -769,7 +773,8 @@
         background-size: cover;
         color: white;
     }
-    #Our-ProductS .bottom_div div:nth-child(2){
+
+    #Our-ProductS .bottom_div div:nth-child(2) {
         width: 45px;
         height: 45px;
         border-radius: 50%;
@@ -782,7 +787,8 @@
         color: white;
         font-size: 20px;
     }
-    #Our-ProductS .bottom_div div:nth-child(3){
+
+    #Our-ProductS .bottom_div div:nth-child(3) {
         width: 45px;
         height: 45px;
         border-radius: 50%;
@@ -796,9 +802,9 @@
         font-size: 18px;
     }
 
-    #Our-ProductS .bottom_div div:nth-child(4) button{
-        
-       
+    #Our-ProductS .bottom_div div:nth-child(4) button {
+
+
         background-image: url("../img/themebgimg.webp");
         background-size: cover;
         background-position: center;
@@ -811,20 +817,86 @@
     }
 
     /* PROJECT_STATUS */
-    #PROJECT_STATUS{
+    #PROJECT_STATUS {
         padding-top: 60px;
-        border: 2px solid red;
+        /* border: 2px solid red; */
     }
-    #PROJECT_STATUS .project{
-       margin-top: 50px !important;
+
+    #PROJECT_STATUS .project {
+        margin-top: 10px !important;
         width: 95%;
         margin: auto;
-        box-shadow: 0px 0px 10px 5px #ccc;
+        box-shadow: 0px 0px 4px 0px #ccc;
+        /* padding: 10px 0px; */
+        padding-top: 20px;
     }
 
+    #PROJECT_STATUS .green {
+        position: relative;
+    }
+
+    #PROJECT_STATUS .green::after {
+        content: "✔";
+        color: white;
+        position: absolute;
+        top: 6%;
+        left: 46%;
+
+    }
+
+    #PROJECT_STATUS p {
+        font-size: 14px;
+    }
+
+    #PROJECT_STATUS .downPart {
+        border-top: 1px solid #B77030;
+        color: #B77030;
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center;
+        padding: 5px 18px;
+    }
+    
+    #PROJECT_STATUS .downPart div:nth-child(1) {
+        font-size: 15px;
+    }
+    
+    #PROJECT_STATUS .downPart i {
+        border: 1px solid #B77030;
+        border-radius: 50%;
+        padding: 10px;
+    }
+    #PROJECT_STATUS .downBox{
+        background-color: #F5F5F5;
+        text-align: center;
+        padding: 15px 35px;
+        text-transform: uppercase;
+    }
+    #PROJECT_STATUS .downBox small{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    #PROJECT_STATUS .downBox h6{
+        font-size: 13px;
+        
+        margin-top: 12px;
+    }
+
+    /* testimonials */
 
 
+    #testimonials .testimonial-container{
+        text-align: center;
+        border: 1px solid red;
+        height: 400px;
+   }
 }
+
+
+
+
+
+
 
 @media screen and (min-width:661px) and (max-width:996px) {
     .why-box {

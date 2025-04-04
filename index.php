@@ -76,9 +76,9 @@ include_once('header.php');
 </section>
 
 
-<section class="service_provide">
+<section class="service_provide  ">
 
-  <div class="container py-2 py-lg-5 ">
+  <div class="container py-4 py-lg-5 ">
     <div class="row justify-content-between">
 
       <div class="col-lg-3 col-6 service_provide_box border-end">
@@ -515,9 +515,41 @@ include_once('header.php');
 
 <!-- mobile PROJECT_STATUS -->
  <section id="PROJECT_STATUS" class="d-block d-lg-none"  >
-  <div class="container project text-center pt-5">
+  <div class=" project text-center">
     <h2>PROJECT STATUS</h2>
     <h3>The Medallion Aurum Mohali</h3>
+
+    <div class="row row-cols-3 row-cols-sm-4 g-2 border-bottom ">
+      <div class="col green"> <img src="./img/Group 5913.png" alt=""><p >Ground Floor Blockwork (Walls)</p></div>
+      <div class="col"> <img src="./img/Group 5912.png" alt=""> <p>Ground Floor Blockwork (Walls)</p> </div>
+      <div class="col"> <img src="./img/Group 5912.png" alt="">  <p>Ground Floor Blockwork (Walls)</p>  </div>
+      <div class="col"> <img src="./img/Group 5912.png" alt="">  <p>Ground Floor Blockwork (Walls)</p>  </div>
+      <div class="col"> <img src="./img/Group 5912.png" alt=""> <p>Ground Floor Blockwork (Walls)</p>  </div>
+      <div class="col"> <img src="./img/Group 5912.png" alt=""> <p>Ground Floor Blockwork (Walls)</p>  </div>
+      <div class="col"> <img src="./img/Group 5912.png" alt=""> <p>Ground Floor Blockwork (Walls)</p>  </div>
+      <div class="col"> <img src="./img/Group 5912.png" alt=""> <p>Ground Floor Blockwork (Walls)</p>  </div>
+      <div class="col"> <img src="./img/Group 5912.png" alt=""> <p>Ground Floor Blockwork (Walls)</p>  </div>
+      <div class="col"> <img src="./img/Group 5912.png" alt="">  <p>Ground Floor Blockwork (Walls)</p> </div>
+      <div class="col"> <img src="./img/Group 5912.png" alt=""> <p>Ground Floor Blockwork (Walls)</p>  </div>
+      <div class="col"> <img src="./img/Group 5912.png" alt=""> <p>Ground Floor Blockwork (Walls)</p>  </div>
+    </div>
+
+    <div class=" downPart ">
+            <div> Read More </div>
+            <div> <i class="fa-solid fa-angle-down"></i> </div>
+
+         </div>
+
+         <div class="downBox">
+            <div class="d-flex justify-content-center ">
+              <div class="px-2 d-flex align-items-center "> <img src="./img/Group 5427.png" alt=""> <small> Completed </small>  </div>
+              <div class="px-2 d-flex align-items-center ">  <img src="./img/Group 4938.png" alt=""> <small> Pending   </small> </div>
+            </div>
+            <h6>
+            Note : Within the premises of the Sushma 
+            Township are reputed Schools.
+            </h6>
+         </div>
   </div>
 
  
@@ -527,38 +559,102 @@ include_once('header.php');
 
 <section class="py-4">
   <div class="container-fluid p-0">
-    <img src="img/banner.jpeg" class="img-fluid" />
+    <img src="img/banner.jpeg" class="img-fluid d-none d-lg-block" />
+    <img src="img/banner_mobile.webp" class="w-100 d-block d-lg-none" />
+    
   </div>
 </section>
-
-<section>
-
+<section id="testimonials">
   <div class="container-fluid testimonials">
     <div class="row">
-      <h2 class="text-white">TESTIMONIALS</h2>
+      <h2 class="text-white text-center">TESTIMONIALS</h2>
     </div>
 
     <div class="container py-5">
       <div class="row align-items-center justify-content-between">
-        <div class="col-md-4 client-list">
+
+        <!-- Client List (Visible only on large screens) -->
+        <div class="col-md-4 client-list d-none d-lg-block">
           <button class="active" onclick="showTestimonial(0)">Mrs. Neha Arora</button>
           <button onclick="showTestimonial(1)">Mr. Siddharth Mehta</button>
           <button onclick="showTestimonial(2)">Ms. Kaur</button>
           <button onclick="showTestimonial(3)">The Gupta Family</button>
         </div>
+
+        <!-- Testimonial Carousel -->
         <div class="col-md-6 testimonial-container-session">
           <div class="testimonial-container">
-            <p id="testimonial-text" class="testimonial-text">We were impressed by the thoughtful design of the apartments at Medallion Aurum. The layout is perfect for our family, with plenty of natural light and ventilation. It truly feels like a home.</p>
-            <footer id="testimonial-author" class="blockquote-footer text-white">Mrs. Neha Arora</footer>
-            <div class="star-rating">★★★★★</div>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+              <div class="carousel-inner">
+
+                <!-- Testimonial 1 -->
+                <div class="carousel-item active">
+                  <div class="text-center"><img src="./img/”.png" alt="Client Image" class="imgs"></div>
+                  <p class="testimonial-text">
+                    <strong>We were impressed by the thoughtful design of the apartments at Medallion Aurum.</strong>
+                    The layout is perfect for our family, with plenty of natural light and ventilation. It truly feels like a home.
+                  </p>
+                  <footer class="blockquote-footer text-white">Mrs. Neha Arora</footer>
+                  <div class="star-rating">★★★★★</div>
+                  <div class="d-block d-lg-none text-center">
+                    <img src="./img/Group 5447.png" alt="Decorative">
+                  </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="carousel-item">
+                  <div class="text-center"><img src="./img/”.png" alt="Client Image" class="imgs"></div>
+                  <p class="testimonial-text">
+                    <strong>The professionalism of the team made our buying experience seamless.</strong>
+                    The quality and aesthetics of the project are truly unmatched.
+                  </p>
+                  <footer class="blockquote-footer text-white">Mr. Siddharth Mehta</footer>
+                  <div class="star-rating">★★★★★</div>
+                  <div class="d-block d-lg-none text-center">
+                  <img src="./img/Group 5447.png" alt="Decorative">
+                  </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="carousel-item">
+                  <div class="text-center"><img src="./img/”.png" alt="Client Image" class="imgs"></div>
+                  <p class="testimonial-text">
+                    <strong>Medallion Aurum is the best decision we made.</strong>
+                    The spacious rooms and thoughtful amenities provide an amazing living experience.
+                  </p>
+                  <footer class="blockquote-footer text-white">Ms. Kaur</footer>
+                  <div class="star-rating">★★★★★</div>
+                  <div class="d-block d-lg-none text-center">
+                  <img src="./img/Group 5447.png" alt="Decorative">
+                  </div>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="carousel-item">
+                  <div class="text-center"><img src="./img/sample.png" alt="Client Image" class="imgs"></div>
+                  <p class="testimonial-text">
+                    <strong>A perfect home for our family.</strong>
+                    The attention to detail in the design is what makes it stand out.
+                  </p>
+                  <footer class="blockquote-footer text-white">The Gupta Family</footer>
+                  <div class="star-rating">★★★★★</div>
+                  <div class="d-block d-lg-none text-center">
+                    <img src="./img/Group 5447.png" alt="Decorative">
+                  </div>
+                </div>
+
+              </div>
+            </div>
           </div>
         </div>
+
       </div>
     </div>
 
     <div class="overlay"></div>
   </div>
 </section>
+
 
 <section class="bg-dark mb-4 text-white">
   <div class="container">
