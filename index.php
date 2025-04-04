@@ -537,7 +537,7 @@ include_once('header.php');
 
             <div class="col-lg-12 col-12 mb-3">
               <select class="form-select" id="broker">
-                <option selected>Are you a broker?/option>
+                <option selected>Are you a broker?</option>
                 <option value="Yes, I am broker">Yes, I am broker</option>
                 <option value="No, I am not broker">No, I am not broker</option>
               </select>

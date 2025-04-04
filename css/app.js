@@ -136,7 +136,7 @@ function showTestimonial(index) {
 }
 document.addEventListener("DOMContentLoaded", function () {
   const element = document.querySelector(".mobileOverlay");
-  const urls = ['/realtynivesh/', '/realtynivesh/amenities.php', '/realtynivesh/gallery.php', 
+  const urls = ['/webrealtynivesh/', '/realtynivesh/amenities.php', '/realtynivesh/gallery.php', 
     '/realtynivesh/plan.php', '/realtynivesh/location.php','/realtynivesh/price.php']; 
 
   if (element && urls.includes(window.location.pathname)) {
